@@ -14,7 +14,7 @@ async def echo(update, context):
 
 def main():
     # 替换为你的机器人 API 令牌
-    token = "7727648050:AAHs7IfptfwQo3nBv2vIUqJh87_v9O66TXE"
+    token = ":"
     
     # 创建应用实例
     app = Application.builder().token(token).build()
